@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKK - Koivu & Kupari Puusepät</title>
+    <meta name="description" content="Usein kysytyt kysymykset Koivu & Kupari Puuseppien palveluista, hinnoittelusta, aikatauluista ja toiminta-alueista Joensuussa, Kontiolahdella, Liperissä ja muualla Pohjois-Karjalassa.">
+    <meta name="keywords" content="UKK puuseppä Joensuu, usein kysytyt kysymykset Joensuu, puuseppä Pohjois-Karjala, puuseppä Kontiolahti, puuseppä Liperi">
+    <meta name="author" content="Koivu & Kupari Puusepät">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="FI-13">
+    <meta name="geo.placename" content="Joensuu">
+    <meta name="geo.position" content="62.6010;29.7636">
+    <meta name="ICBM" content="62.6010, 29.7636">
+    <link rel="canonical" href="https://koivukupari.fi/faq.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fi_FI">
+    <meta property="og:site_name" content="Koivu & Kupari Puusepät">
+    <meta property="og:url" content="https://koivukupari.fi/faq.html">
+    <meta property="og:title" content="UKK - Koivu & Kupari Puusepät">
+    <meta property="og:description" content="Usein kysytyt kysymykset puusepän palveluista Joensuussa, Kontiolahdella, Liperissä ja muualla Pohjois-Karjalassa.">
+    <meta property="og:image" content="https://koivukupari.fi/images/logo.webp">
+    <meta property="og:image:alt" content="UKK puusepän palveluista Joensuussa ja Pohjois-Karjalassa">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UKK - Koivu & Kupari Puusepät">
+    <meta name="twitter:description" content="Vastaukset yleisimpiin kysymyksiin puusepän palveluista Joensuussa ja Pohjois-Karjalassa.">
+    <meta name="twitter:image" content="https://koivukupari.fi/images/logo.webp">
+    <meta name="twitter:image:alt" content="UKK puusepän palveluista Joensuussa ja Pohjois-Karjalassa">
+    <link rel="icon" type="image/webp" href="images/logo.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap"></noscript>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="images/logo.webp" alt="Koivu & Kupari Puusepät logo, Joensuu Pohjois-Karjala" class="logo-img">
+                <span class="logo-text">Koivu & Kupari</span>
+            </a>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#meista">Meistä</a></li>
+                <li class="dropdown">
+                    <a href="index.html#palvelut" class="dropdown-toggle">Palvelut</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="palvelut/mittatilauskalusteet.html">Mittatilauskalusteet</a></li>
+                        <li><a href="palvelut/keittioremontit.html">Keittiöremontit</a></li>
+                        <li><a href="palvelut/kiintokalusteet.html">Kiintokalusteiden asennus</a></li>
+                        <li><a href="palvelut/huonekalujen-kunnostus.html">Huonekalujen kunnostus</a></li>
+                        <li><a href="palvelut/3d-suunnittelu.html">3D-luonnokset ja suunnittelu</a></li>
+                    </ul>
+                </li>
+                <li><a href="faq.html">UKK</a></li>
+                <li><a href="index.html#palautteet">Palautteet</a></li>
+                <li><a href="contacts.html">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacts-hero" aria-label="Usein kysytyt kysymykset puusepän palveluista Joensuussa ja Pohjois-Karjalassa">
+            <div class="service-hero-content">
+                <h1>Usein kysytyt kysymykset</h1>
+                <p>Etsi nopeasti vastaukset palveluihin, aikatauluihin, alueisiin ja käytäntöihin liittyen.</p>
+            </div>
+        </section>
+
+        <section class="service-content">
+            <div class="service-intro">
+                <h2>Löydä vastaus nopeasti</h2>
+                <p>Voit etsiä kysymyksiä hakusanalla tai rajata tuloksia aihealueittain. Jos et löydä vastausta, ota yhteyttä niin autamme mielellämme.</p>
+                <div class="faq-controls">
+                    <input type="search" id="faqSearch" class="faq-search" placeholder="Etsi kysymyksistä... esim. Joensuu, hinta, aikataulu">
+                    <select id="faqCategory" class="faq-category-select">
+                        <option value="all">Kaikki kategoriat</option>
+                        <option value="palvelut">Palvelut ja toiminta-alue</option>
+                        <option value="hinta">Hinnat ja aikataulut</option>
+                        <option value="projekti">Projektin kulku</option>
+                        <option value="materiaalit">Materiaalit ja takuu</option>
+                    </select>
+                </div>
+                <p id="faqNoResults" class="faq-no-results">Hakuehdoilla ei löytynyt tuloksia.</p>
+            </div>
+
+            <div class="faq-category" data-category="palvelut">
+                <h2>Palvelut ja toiminta-alue</h2>
+                <details class="faq-item">
+                    <summary>1. Toimitteko vain Joensuussa?</summary>
+                    <p>Toimimme pääasiassa Joensuussa, mutta palvelemme myös laajasti lähialueilla sopimuksen mukaan.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>2. Teettekö töitä Kontiolahdella?</summary>
+                    <p>Kyllä, teemme säännöllisesti asennus- ja remonttitöitä myös Kontiolahdella.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>3. Entä muu Pohjois-Karjala, kuten Liperi tai Kitee?</summary>
+                    <p>Kyllä, toteutamme projekteja koko Pohjois-Karjalan alueella. Matkakulut huomioidaan tarjouksessa.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>4. Tuletteko tekemään työn Pohjois-Karjalan ulkopuolelle?</summary>
+                    <p>Mahdollisesti kyllä, jos projekti on riittävän laaja. Sovimme tällöin erikseen aikataulusta ja logistiikasta.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>5. Voinko tilata pelkän suunnittelun ilman toteutusta?</summary>
+                    <p>Kyllä voit. Tarjoamme myös erillistä suunnittelua ja 3D-visualisointeja ilman valmistusta.</p>
+                </details>
+            </div>
+
+            <div class="faq-category" data-category="hinta">
+                <h2>Hinnat ja aikataulut</h2>
+                <details class="faq-item">
+                    <summary>6. Onko ensimmäinen kartoituskäynti maksullinen?</summary>
+                    <p>Ensimmäinen kartoitus ja alustava keskustelu on yleensä maksuton Joensuun alueella.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>7. Kuinka nopeasti saan tarjouksen?</summary>
+                    <p>Toimitamme tarjouksen tavallisesti 2-5 arkipäivän kuluessa kohteen laajuudesta riippuen.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>8. Kuinka pitkät toimitusajat mittatilauskalusteissa yleensä ovat?</summary>
+                    <p>Tyypillinen toimitusaika on 3-8 viikkoa suunnittelun hyväksynnästä.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>9. Vaikuttavatko materiaalivalinnat paljon hintaan?</summary>
+                    <p>Kyllä. Esimerkiksi massiivipuu, erikoispinnoitteet ja yksityiskohtaiset helat vaikuttavat kokonaishintaan.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>10. Voiko projektin toteuttaa vaiheittain budjetin mukaan?</summary>
+                    <p>Kyllä voi. Voimme jakaa projektin järkeviin vaiheisiin niin, että kokonaisuus pysyy hallinnassa.</p>
+                </details>
+            </div>
+
+            <div class="faq-category" data-category="projekti">
+                <h2>Projektin kulku</h2>
+                <details class="faq-item">
+                    <summary>11. Miten projekti etenee käytännössä?</summary>
+                    <p>Projekti etenee kartoituksesta suunnitteluun, tarjoukseen, valmistukseen ja lopuksi asennukseen.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>12. Tarvitaanko asiakkaalta paljon valmisteluja ennen asennusta?</summary>
+                    <p>Annamme selkeät ohjeet etukäteen. Usein riittää, että työalue tyhjennetään ja kulkureitit pidetään vapaina.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>13. Hoidatteko vanhojen kalusteiden purun?</summary>
+                    <p>Kyllä, voimme sopia myös purkutyöt osaksi projektia.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>14. Teettekö yhteistyötä sähkö- ja putkiasentajien kanssa?</summary>
+                    <p>Kyllä. Tarvittaessa koordinoimme muiden ammattilaisten työn osaksi kokonaisuutta.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>15. Voiko työn aikana tehdä vielä muutoksia?</summary>
+                    <p>Pienet muutokset onnistuvat usein. Isommat muutokset voivat vaikuttaa hintaan ja aikatauluun.</p>
+                </details>
+            </div>
+
+            <div class="faq-category" data-category="materiaalit">
+                <h2>Materiaalit ja takuu</h2>
+                <details class="faq-item">
+                    <summary>16. Mitä puumateriaaleja suosittelette?</summary>
+                    <p>Suosittelemme käyttötarpeen mukaan esimerkiksi koivua, tammea ja mäntyä sekä laadukkaita levymateriaaleja.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>17. Voinko valita itse vetimet, ovet ja värit?</summary>
+                    <p>Kyllä. Suunnittelemme kokonaisuuden yhdessä ja valitset yksityiskohdat oman tyylisi mukaan.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>18. Ovatko materiaalit ekologisia?</summary>
+                    <p>Suosimme kestäviä ja pitkäikäisiä materiaaleja sekä vastuullisia toimittajia aina kun mahdollista.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>19. Annatteko työlle takuun?</summary>
+                    <p>Kyllä, annamme työllemme takuun. Takuun sisältö määritellään tarjouksessa projektikohtaisesti.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>20. Tarjoatteko huoltoa tai korjauksia myöhemmin?</summary>
+                    <p>Kyllä, autamme myös jälkihuollossa sekä mahdollisissa muutostöissä projektin valmistumisen jälkeen.</p>
+                </details>
+            </div>
+
+            <div class="service-cta">
+                <h2>Etkö löytänyt vastausta?</h2>
+                <p>Ota yhteyttä, niin käydään kysymyksesi läpi yhdessä.</p>
+                <a href="contacts.html" class="cta-button">Siirry yhteystietoihin</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Koivu & Kupari Puusepät. Kaikki oikeudet pidätetään.</p>
+        <p>Y-tunnus: 1234567-8 | Joensuu, Suomi</p>
+    </footer>
+
+    <script>
+        const dropdown = document.querySelector('.dropdown');
+        if (dropdown) {
+            dropdown.addEventListener('mouseenter', function() {
+                this.classList.add('active');
+            });
+            dropdown.addEventListener('mouseleave', function() {
+                this.classList.remove('active');
+            });
+        }
+
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav-links').classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+        });
+
+        const faqSearch = document.getElementById('faqSearch');
+        const faqCategory = document.getElementById('faqCategory');
+        const faqItems = Array.from(document.querySelectorAll('.faq-item'));
+        const faqCategories = Array.from(document.querySelectorAll('.faq-category'));
+        const faqNoResults = document.getElementById('faqNoResults');
+
+        function filterFaq() {
+            const text = faqSearch.value.trim().toLowerCase();
+            const category = faqCategory.value;
+            let visibleCount = 0;
+
+            faqItems.forEach((item) => {
+                const parentCategory = item.closest('.faq-category').dataset.category;
+                const haystack = item.textContent.toLowerCase();
+                const textMatch = !text || haystack.includes(text);
+                const categoryMatch = category === 'all' || parentCategory === category;
+                const show = textMatch && categoryMatch;
+
+                item.style.display = show ? '' : 'none';
+                if (show) visibleCount += 1;
+            });
+
+            faqCategories.forEach((group) => {
+                const hasVisibleItems = Array.from(group.querySelectorAll('.faq-item'))
+                    .some((item) => item.style.display !== 'none');
+                group.style.display = hasVisibleItems ? '' : 'none';
+            });
+
+            faqNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        faqSearch.addEventListener('input', filterFaq);
+        faqCategory.addEventListener('change', filterFaq);
+    </script>
+</body>
+</html>
