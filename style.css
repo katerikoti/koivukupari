@@ -1169,7 +1169,7 @@ section h2 {
 }
 
 .contact-compact .contact-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contact-compact .contact-info .cta-button {
